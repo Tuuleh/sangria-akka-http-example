@@ -29,7 +29,10 @@ libraryDependencies ++= Seq(
   "io.circe" %% "circe-core" % circeVersion,
   "io.circe" %% "circe-parser" % circeVersion,
   "io.circe" %% "circe-optics" % circeVersion,
-  
+  "com.h2database" % "h2" % "2.1.210",
+  "com.typesafe.slick" %% "slick" % "3.3.3",
+  "com.typesafe.slick" %% "slick-hikaricp" % "3.3.3",
+
   "org.scalatest" %% "scalatest" % "3.2.9" % Test
 )
 
